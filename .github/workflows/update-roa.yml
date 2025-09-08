@@ -24,7 +24,7 @@ jobs:
     - name: Fetch IRR prefixes and convert to ROA JSON
       run: |
         AS_SET="AS214955:AS-LAUNCHPAD-NETWORK"
-        ASN=213605
+        ASN=214955
         TRUST_ANCHOR="IRR-MANUAL"
         TMP_JSON="bgpq4_output.json"
         OUTPUT_FILE="roa_for_stayrtr.json"

@@ -2,8 +2,8 @@ name: Update ROA JSON from IRR
 
 on:
   schedule:
-    - cron: "0 3 * * *"  # 每天 UTC 03:00 自动运行
-  workflow_dispatch:     # 支持手动触发
+    - cron: "0 * * * *"
+  workflow_dispatch:
 
 jobs:
   update:
